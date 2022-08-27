@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Qual é o triângulo ?</h1>
+    </header>
+
+    <main>
+        <div> 
+            <p id="parag1">Digite o segmento das retas para saber se é Equilátero, Isósceles ou Escaleno </p>
+        </div>
+
+        <div> 
+           <p>Lado A: <input type="number" id="comp1"></p> 
+           <p>Lado B: <input type="number" id="comp2"></p>
+           <p>Lado C: <input type="number" id="comp3"></p>
+           <p id="bt">
+            <input type="button" class="bt" value="Enviar " onclick="Enviar ()">
+           </p>
+
+        </div>
+        
+        <div id="res">
+            <p>
+                Preencha os dados acima para ver o resultado !
+            </p> 
+        </div>
+    </main>
+
+    <script src="provaTriangulo.js"></script>   
+
+</body>
+</html>
