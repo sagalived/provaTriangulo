@@ -18,21 +18,18 @@ function Enviar () {
     } else if ((ladoA  == ladoB) && (ladoB == ladoC)) {
 
         img.setAttribute ('src', 'foto-equi.png')
-        res.innerHTML = `Foi detectado que é um Triangulo Equilátero `
-        document.body.style.background = "#3E7D94"
+        res.innerHTML = `Foi detectado que é um Triangulo Equilátero`
         res.appendChild (img)
 
     }else if ( (ladoA  == ladoB) || (ladoA == ladoC) || (ladoB == ladoC)) {
 
         img.setAttribute ('src', 'foto-iso.png')
         res.innerHTML = `Foi detectado que é um Triangulo Isósceles `
-        document.body.style.background = "#684191"
         res.appendChild (img)
     } else {
 
         img.setAttribute ('src', 'foto-esca.png')
         res.innerHTML = `Foi detectado que é um Triangulo Escaleno `
-        document.body.style.background = "#8CABE6"
         res.appendChild (img)
     } 
     
